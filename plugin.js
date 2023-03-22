@@ -3,5 +3,5 @@
 
 /** @param {import('fastify').FastifyInstance} app */
 module.exports = async function (app) {
-  console.log('@@@@@@@@@@new deploy - test deploy 3@@@@@@@@@@')
+  console.log('@@@@@@@@@@new deploy - test logs @@@@@@@@@@')
 }
