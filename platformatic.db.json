@@ -4,7 +4,7 @@
     "hostname": "127.0.0.1",
     "port": "3042",
     "logger": {
-      "level": "info"
+      "level": "debug"
     },
     "cors": {
       "origin": "https://pt-development-dashformatic.fly.dev",
