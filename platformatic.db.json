@@ -5,9 +5,18 @@
     "port": "3042",
     "logger": {
       "level": "info"
+    },
+    "cors": {
+      "origin": "https://pt-development-dashformatic.fly.dev",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
     }
   },
-  "core": {
+  "db": {
     "connectionString": "sqlite://./db.sqlite",
     "graphql": true,
     "openapi": true
