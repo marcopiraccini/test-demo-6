@@ -16,7 +16,7 @@
       ]
     }
   },
-  "db": {
+  "core": {
     "connectionString": "sqlite://./db.sqlite",
     "graphql": true,
     "openapi": true
