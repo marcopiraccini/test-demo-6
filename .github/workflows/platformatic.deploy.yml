@@ -2,7 +2,9 @@
 name: Deploy Platformatic DB application to the cloud
 
 on:
-  pull_request:
+  push:
+    branches:
+      - main
     paths-ignore:
       - 'docs/**'
       - '**.md'
