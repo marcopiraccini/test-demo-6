@@ -22,7 +22,7 @@ jobs:
         uses: platformatic/onestep@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          platformatic_workspace_id: 0de725d7-1c63-4ebd-b9f5-57a4787aa7a1
+          platformatic_workspace_id: 74ea7b4c-98bd-4c08-8dc5-d2319ee565ed
           platformatic_workspace_key: ${{ secrets.PLATFORMATIC_WORKSPACE_KEY }}
           platformatic_config_path: ./platformatic.db.json
           variables: custom_variable1, custom_variable2
